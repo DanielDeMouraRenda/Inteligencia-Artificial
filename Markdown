@@ -1,0 +1,32 @@
+# Proposta de Análise do Dataset de Tendências de Streaming Musical Global
+
+## Descrição da base de dados escolhida
+
+O **Global Music Streaming Trends and Listener Insights** é um dataset que contém informações sobre o comportamento de streaming de música em várias plataformas ao redor do mundo. As principais colunas do dataset incluem:
+
+- **country**: País onde os dados foram coletados.
+- **platform**: Plataforma de streaming (por exemplo, Spotify, Apple Music, etc.).
+- **genre**: Gênero musical da faixa.
+- **streams**: Número total de streams para cada faixa.
+- **listeners**: Número de ouvintes únicos que interagiram com a faixa.
+- **year**: Ano em que os dados foram coletados.
+- **month**: Mês em que os dados foram coletados.
+
+As informações foram coletadas para entender as tendências de consumo de música e as preferências dos ouvintes em diferentes regiões e plataformas.
+
+## Justificativa da Escolha da Técnica de Machine Learning
+
+A tecnica de Machine Learning escolhida foi **regressão**. A escolha dessa técnica é se da por ela ser amplamente utilizada para prever valores futuros com base em dados históricos.Possuir boa Analise de tendências de mercado, e identificação de Fatores InfluentesPor exemplo:
+- **Previsão de Streams**: O objetivo principal é prever o número de streams de uma faixa com base em variáveis como país, plataforma, gênero, ano e mês. A regressão é adequada para este tipo de problema, onde buscamos modelar a relação entre variáveis independentes e uma variável dependente contínua (neste caso, o número de streams).
+- **Análise de Tendências**: A regressão pode ajudar a identificar tendências ao longo do tempo, permitindo que se compreenda como as preferências dos ouvintes mudam em diferentes períodos e regiões.
+- **Identificação de Fatores Influentes**: Compreender quais fatores influenciam o número de streams pode ajudar artistas e plataformas a desenvolver estratégias de marketing mais eficazes.
+
+## Objetivos da Análise Proposta
+
+Os principais objetivos da análise são:
+
+1. **Desenvolver um Modelo de Regressão**: Criar um modelo de regressão (por exemplo, regressão linear ou regressão de árvore de decisão) para prever o número de streams com base nas variáveis disponíveis.
+2. **Avaliar o Desempenho do Modelo**: Utilizar métricas como R², erro médio absoluto (MAE) e erro quadrático médio (RMSE) para avaliar a precisão do modelo.
+3. **Identificar Fatores Influentes**: Analisar quais variáveis têm maior impacto no número de streams, proporcionando epafania sobre o comportamento dos ouvintes.
+4. **Visualizar Tendências**: Criar visualizações que mostrem como o número de streams varia ao longo do tempo e entre diferentes gêneros e plataformas, ajudando a identificar padrões e tendências.
+
